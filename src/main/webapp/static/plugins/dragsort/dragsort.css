@@ -1,0 +1,38 @@
+.img_list {
+	list-style-type: none;
+	margin: 0px;
+	position: relative;
+}
+
+.img_list ul {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 20px;
+}
+
+.img_list li {
+	cursor: move;
+	float: left;
+	padding: 5px;
+	height: 130px;
+	margin-top: 10px;
+}
+
+.placeHolder div {
+	background-color: white !important;
+	border: dashed 1px gray !important;
+}
+
+.show {
+	cursor: move;
+	width: 100%;
+	height: 130px;
+}
+
+.close {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: -130px;
+	opacity: 1;
+}
